@@ -1,0 +1,3 @@
+app.controller('forgotPassword',function($scope,$http){var sp=$scope;sp.init=function(){sp.showLogin=false;}
+sp.sendMailForgotPassword=function(){var input=$('#Email').val();if(!input){sp.messageLogin="Vui lòng nhập email/tên tài khoản đã đăng ký !";$('#messageForgot').show();setTimeout(function(){$('#messageForgot').fadeOut('slow');},10000);return;}
+util.addLoadingAnimate();$http({method:'GET',url:config.url+'/api/AccountAPI/SendMailForgotPassword?input='+input,withCredentials:true,}).then(function(response){sp.messageForgot=response.data.Message;$('#messageForgot').show();sp.showLogin=true;setTimeout(function(){$('#messageForgot').fadeOut('slow');},30000);util.removeLoadingAnimate();},function(data){util.removeLoadingAnimate();});}});

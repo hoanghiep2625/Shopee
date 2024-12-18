@@ -1,0 +1,64 @@
+  body {
+      font-family: Arial, sans-serif;
+  }
+
+  form {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+  }
+
+  div {
+      margin-bottom: 15px;
+  }
+
+  label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+
+  input[type="file"] {
+      padding: 5px;
+  }
+
+  input[type="checkbox"] {
+      margin-right: 5px;
+  }
+
+  input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+  }
+
+  .ck-editor__editable {
+      min-height: 200px;
+  }
+
+  /* Đảm bảo CKEditor không bị ảnh hưởng bởi các thuộc tính CSS khác */
+  .ck.ck-editor__editable {
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+  }

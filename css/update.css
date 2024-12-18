@@ -1,0 +1,68 @@
+  /* Căn giữa toàn bộ form */
+  .form-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Các phần tử trong form */
+  .form-container div {
+      margin-bottom: 15px;
+  }
+
+  /* Nhãn */
+  .form-container label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+  }
+
+  /* Ô nhập liệu */
+  .form-container input[type="text"],
+  .form-container input[type="number"],
+  .form-container input[type="file"],
+  .form-container select,
+  .form-container textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+
+  /* Phần tử image */
+  .form-container img {
+      margin-top: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+  }
+
+  /* Checkbox */
+  .form-container input[type="checkbox"] {
+      margin-right: 10px;
+  }
+
+  /* Nút gửi */
+  .form-container input[type="submit"] {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+  }
+
+  .form-container input[type="submit"]:hover {
+      background-color: #0056b3;
+  }
+
+  /* Phần tử CKEditor */
+  .ck-editor__editable {
+      min-height: 200px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }

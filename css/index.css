@@ -1,0 +1,281 @@
+body {
+    font-family: 'Helvetica Neue';
+    margin: 0 auto;
+    background: #e8e8e8;
+}
+
+article {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    background-color: #e8e8e8;
+}
+
+header {
+    background: orangered;
+    width: 100%;
+}
+
+.mot {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding-bottom: 8px;
+}
+
+.mot ul {
+    display: flex;
+    padding: 0px;
+}
+
+.mot ul li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.mot ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.hai {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.hai img {
+    width: 150px;
+}
+
+.hai .search {}
+
+.hai input {
+    width: 840px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+}
+
+.hai button {
+    width: 69px;
+    height: 37px;
+    position: absolute;
+    margin-left: -72px;
+    margin-top: 1.7px;
+    background: orangered;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.hai button img {
+    width: 20px;
+    height: 20px;
+}
+
+.cart img {
+    width: 30px;
+    height: 30px;
+    padding: 10px 70px 20px 70px;
+}
+
+.ba {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.ba ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: -30px;
+    align-items: center;
+}
+
+.ba ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.ba ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.goiy {
+    max-width: 1220px;
+    margin: 0px auto;
+}
+
+div h4 {
+    color: orangered;
+    text-align: center;
+    background-color: white;
+    margin: 0px auto;
+    height: 60px;
+    margin-top: -15px;
+
+}
+
+div hr {
+    margin-top: -2px;
+    border: none;
+    border: 1.3px solid orangered;
+    margin-bottom: 0px;
+
+}
+
+h4 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 7px;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+.rate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    height: 12px;
+}
+
+.rate p {
+    padding-left: 5px;
+}
+
+.rate img {
+    width: 12px;
+    height: 12px;
+}
+
+.sanpham {
+    background-color: white;
+    cursor: pointer;
+}
+
+.hinhanh {
+    text-align: center;
+}
+
+.like {
+    font-size: 10px;
+    width: 55px;
+    height: 15px;
+    margin: 0;
+    position: absolute;
+    background-color: orangered;
+    color: white;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.hinhanh img {
+    width: 187px;
+    height: 187px;
+}
+
+.thongtin {
+    font-size: 14px;
+    padding: 8px 10px 0px 10px;
+}
+
+.deal {
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deal :nth-child(1) {
+    color: white;
+    background-color: rgb(236, 106, 58);
+    padding: 3px;
+}
+
+.deal :nth-child(2) {
+    border: 1px solid red;
+    padding: 0px 5px;
+    color: red;
+}
+
+.gia {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: -19px;
+}
+
+.gia>:nth-child(1) {
+    color: red;
+    font-size: 15px;
+}
+
+.gia>:nth-child(2) {
+    font-size: 15px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.discount_percentage {
+    float: right;
+    background-color: yellow;
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    height: 10px;
+    width: 25px;
+    margin-left: 159px;
+    position: absolute;
+
+}
+
+.diachi {
+    color: gray;
+}
+
+.diachi p {
+    margin: 5px 0px 7px 0px;
+}
+
+.tensanpham {
+    min-height: 48px;
+    margin: 0px;
+}
+
+.tensanpham a {
+    color: black;
+    text-decoration: none;
+}
+
+.tensanpham a:hover {
+    color: #FF5722;
+    text-decoration: none;
+}
+
+.sanpham:hover {
+    border: 1px solid orangered;
+}

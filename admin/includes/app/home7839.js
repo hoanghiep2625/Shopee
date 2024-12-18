@@ -1,0 +1,3 @@
+app.controller('home',function($scope,$http){var sp=$scope;sp.register=function(){var username=$('#inputName').val();var password=$('#inputPassword').val();var email=$('#inputEmail').val();if(!username||!password||!email){util.showNotification("Vui lòng nhập đầy đủ thông tin đăng ký !",4);return;}
+$http({method:'POST',url:config.url+'/api/AccountAPI/Register',params:{Username:username,Password:password,Email:email},withCredentials:true,}).then(function(response){if(response.data.ResponseCode==1){var url=window.location.href;var position=url.indexOf("/",url.indexOf("/")+2);var domain=url.slice(0,position);window.location.replace(domain+'/Dash/Index')}
+else{util.showNotification(response.data.Message,4);}},function(data){});}});

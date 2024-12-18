@@ -1,0 +1,225 @@
+article {
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+.anh1 img {
+    padding: 15px;
+    width: 450px;
+    height: 450px;
+
+}
+
+.anh2 {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.anh2 .p2 i img {
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.anh2 .p1 i img {
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+.p1,
+.p2 {
+    margin: 0;
+}
+
+.tensanpham {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.vote {
+    display: flex;
+}
+
+.gia {
+    width: 625px;
+    height: 71px;
+    padding: 15px 20px;
+    background-color: #f4f2f2;
+    margin-bottom: 20px;
+}
+
+.gia1 {
+    height: 30px;
+
+
+    display: flex;
+    align-items: center;
+}
+
+.gia1 p:nth-of-type(1) {
+    color: #929292;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.gia1 p:nth-of-type(2) {
+    color: orangered;
+    font-size: 30px;
+}
+
+.gia1 p:nth-of-type(3) {
+    background-color: orangered;
+    color: white;
+}
+
+.gia2 {
+
+    display: flex;
+    align-items: center;
+}
+
+.gia2 div:nth-of-type(2) p:nth-of-type(1) {
+    color: orangered;
+    font-size: 12px;
+}
+
+.gia2 div:nth-of-type(2) p:nth-of-type(2) {
+    color: #929292;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.vanchuyen {
+    display: flex;
+}
+
+.vanchuyen p {
+    margin: 0;
+}
+
+.vanchuyen div:nth-of-type(2) {
+    padding-left: 15px;
+
+}
+
+.vanchuyen div:nth-of-type(2) p {
+    padding-bottom: 15px;
+}
+
+.vanchuyen div:nth-of-type(2) p img {
+    width: 24px;
+    height: 20px;
+}
+
+.soluong {
+    display: flex;
+    align-items: center;
+}
+
+.soluong input {
+    width: 50px;
+    height: 32px;
+    text-align: center;
+
+}
+
+.soluong p {
+    padding-right: 20px;
+}
+
+.soluong button {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid #929292;
+    cursor: pointer;
+
+}
+
+.muangay {
+    display: flex;
+}
+
+.muangay div:nth-of-type(1) {
+    text-align: center;
+    border: 1px solid #FF6600;
+    color: #FF6600;
+    font-size: 20px;
+    cursor: pointer;
+    width: 198px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff3ee;
+    margin-right: 20px;
+}
+
+.muangay div:nth-of-type(1) p {
+    margin: 0;
+}
+
+.muangay div:nth-of-type(2) {
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    width: 180px;
+    height: 48px;
+    cursor: pointer;
+}
+
+aside {
+    margin-top: 50px;
+    max-width: 1160px;
+    margin: 0px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+aside .chitiet1 p {
+    padding: 20px;
+    width: 1122px;
+    height: 21.5px;
+    font-size: 18px;
+    background-color: #f4f2f2;
+
+}
+
+.rate img {
+    font-size: 12px;
+    height: 12px;
+}
+
+.vote p {
+    padding-right: 20px;
+}
+
+.rate {
+    text-decoration: underline;
+    color: #FF6600;
+}
+
+.quantity {
+    margin-left: 20px;
+}
+
+choice {
+    background-color: #FF6600;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    margin-right: 5px;
+    padding: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
